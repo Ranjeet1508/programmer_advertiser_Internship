@@ -1,0 +1,49 @@
+.findBtn{
+    visibility: hidden;
+}
+
+.inspirationPara{
+    width:40%
+}
+
+.coffee4{
+    width:20%
+}
+.coffee1{
+    width:50%;
+}
+.coffee5{
+    width: 20%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .gsapImage{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coffee4{
+        width:60%;
+    }
+    .coffee1{
+        width:80%;
+        margin-top: 20px;
+    }
+    .coffee5{
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .productImage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inspirationBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inspirationPara{
+        width:100%
+    }
+}

@@ -1,0 +1,23 @@
+
+
+.hamburger{
+    visibility: hidden;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px){
+    .hamburger{
+        visibility: visible;
+        
+    }
+
+    .loginSection{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .secNav{
+        visibility: hidden;
+        position: absolute;
+    }
+}
